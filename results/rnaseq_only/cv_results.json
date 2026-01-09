@@ -1,0 +1,30 @@
+{
+  "model": "RNASeq-Only",
+  "n_folds": 3,
+  "num_epochs": 50,
+  "c_index_mean": 0.6173903346061707,
+  "c_index_std": 0.030886414958314186,
+  "fold_results": [
+    {
+      "fold": 1,
+      "best_c_index": 0.5827884078025818,
+      "best_epoch": 13,
+      "train_size": 176,
+      "val_size": 88
+    },
+    {
+      "fold": 2,
+      "best_c_index": 0.6577777862548828,
+      "best_epoch": 35,
+      "train_size": 176,
+      "val_size": 88
+    },
+    {
+      "fold": 3,
+      "best_c_index": 0.6116048097610474,
+      "best_epoch": 17,
+      "train_size": 176,
+      "val_size": 88
+    }
+  ]
+}

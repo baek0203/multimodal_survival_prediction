@@ -1,0 +1,30 @@
+{
+  "model": "Simple-Fusion (RNA+Image)",
+  "n_folds": 3,
+  "num_epochs": 50,
+  "c_index_mean": 0.603451689084371,
+  "c_index_std": 0.008641576544620168,
+  "fold_results": [
+    {
+      "fold": 1,
+      "best_c_index": 0.591269850730896,
+      "best_epoch": 2,
+      "train_size": 45,
+      "val_size": 23
+    },
+    {
+      "fold": 2,
+      "best_c_index": 0.6086956262588501,
+      "best_epoch": 10,
+      "train_size": 45,
+      "val_size": 23
+    },
+    {
+      "fold": 3,
+      "best_c_index": 0.6103895902633667,
+      "best_epoch": 46,
+      "train_size": 46,
+      "val_size": 22
+    }
+  ]
+}

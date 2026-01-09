@@ -1,0 +1,49 @@
+{
+  "model": "PartialModalityNet (Gating + Entropy Regularization)",
+  "c_index_mean": 0.5938209176063538,
+  "c_index_std": 0.016402330906066943,
+  "fold_results": [
+    {
+      "fold": 1,
+      "best_c_index": 0.6081193089485168,
+      "train_size": 538,
+      "train_survival_size": 278,
+      "val_size": 70
+    },
+    {
+      "fold": 2,
+      "best_c_index": 0.6057971119880676,
+      "train_size": 538,
+      "train_survival_size": 278,
+      "val_size": 70
+    },
+    {
+      "fold": 3,
+      "best_c_index": 0.5627849102020264,
+      "train_size": 538,
+      "train_survival_size": 278,
+      "val_size": 70
+    },
+    {
+      "fold": 4,
+      "best_c_index": 0.59957355260849,
+      "train_size": 539,
+      "train_survival_size": 279,
+      "val_size": 69
+    },
+    {
+      "fold": 5,
+      "best_c_index": 0.592829704284668,
+      "train_size": 539,
+      "train_survival_size": 279,
+      "val_size": 69
+    }
+  ],
+  "hyperparameters": {
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "epochs": 50,
+    "n_folds": 5,
+    "gate_entropy_weight": 0.01
+  }
+}

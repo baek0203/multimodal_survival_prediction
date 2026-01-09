@@ -1,0 +1,24 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text eol=lf
+
+# Data files (treat as binary)
+*.csv binary
+*.tsv binary
+*.npy binary
+*.npz binary
+*.pkl binary
+*.h5 binary
+*.hdf5 binary
+
+# Medical imaging (binary)
+*.dcm binary
+*.nii binary
+*.nii.gz binary
+
+# Model checkpoints (binary)
+*.pth binary
+*.pt binary
+*.ckpt binary

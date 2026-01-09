@@ -1,0 +1,33 @@
+{
+  "model": "SimMLM (Dynamic Mixture of Modality Experts + MoFe Loss)",
+  "c_index_mean": 0.5818885161472077,
+  "c_index_std": 0.03550526823044417,
+  "fold_results": [
+    {
+      "fold": 1,
+      "best_c_index": 0.6023391812865497,
+      "train_size": 232,
+      "val_size": 116
+    },
+    {
+      "fold": 2,
+      "best_c_index": 0.531948402579871,
+      "train_size": 232,
+      "val_size": 116
+    },
+    {
+      "fold": 3,
+      "best_c_index": 0.6113779645752027,
+      "train_size": 232,
+      "val_size": 116
+    }
+  ],
+  "hyperparameters": {
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "stage1_epochs": 30,
+    "stage2_epochs": 50,
+    "n_folds": 3,
+    "mofe_lambda": 0.1
+  }
+}

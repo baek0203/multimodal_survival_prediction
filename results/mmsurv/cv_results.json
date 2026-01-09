@@ -1,0 +1,33 @@
+{
+  "model": "MMsurv (Compact Bilinear Pooling + Transformer)",
+  "c_index_mean": 0.5800878008206686,
+  "c_index_std": 0.015163033303058024,
+  "fold_results": [
+    {
+      "fold": 1,
+      "best_c_index": 0.5793972015380859,
+      "train_size": 232,
+      "val_size": 116
+    },
+    {
+      "fold": 2,
+      "best_c_index": 0.5618718862533569,
+      "train_size": 232,
+      "val_size": 116
+    },
+    {
+      "fold": 3,
+      "best_c_index": 0.5989943146705627,
+      "train_size": 232,
+      "val_size": 116
+    }
+  ],
+  "hyperparameters": {
+    "batch_size": 8,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 50,
+    "n_folds": 3,
+    "dropout": 0.5
+  }
+}

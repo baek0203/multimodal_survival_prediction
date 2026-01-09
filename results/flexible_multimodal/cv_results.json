@@ -1,0 +1,31 @@
+{
+  "model": "Flexible-Multimodal (Missing OK)",
+  "n_folds": 3,
+  "num_epochs": 50,
+  "c_index_mean": 0.5645154317220052,
+  "c_index_std": 0.030612159695572398,
+  "fold_results": [
+    {
+      "fold": 1,
+      "best_c_index": 0.5662767887115479,
+      "best_epoch": 14,
+      "train_size": 232,
+      "val_size": 116
+    },
+    {
+      "fold": 2,
+      "best_c_index": 0.5261737108230591,
+      "best_epoch": 19,
+      "train_size": 232,
+      "val_size": 116
+    },
+    {
+      "fold": 3,
+      "best_c_index": 0.6010957956314087,
+      "best_epoch": 7,
+      "train_size": 232,
+      "val_size": 116
+    }
+  ],
+  "dataset_size": 348
+}

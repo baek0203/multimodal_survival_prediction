@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (large datasets)
+data/
+!data/.gitkeep
+*.csv
+*.tsv
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Medical imaging files
+*.dcm
+*.nii
+*.nii.gz
+
+# Model checkpoints (large files - use Hugging Face or Google Drive instead)
+models/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Training logs
+logs/
+runs/
+
+# Results (keep JSON and small figures, ignore large files)
+results/**/*.pth
+results/**/*.pt
+results/**/*.ckpt
+results/**/*.h5
+results/**/*.hdf5
+# Note: JSON, TXT, PNG files in results/ will be tracked
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# System
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# GDC downloads
+*.parcel
+gdc-client
+gdc_manifest_*.txt
+
+# Temporary processing files
+*.bak
+*.backup
+docs/
